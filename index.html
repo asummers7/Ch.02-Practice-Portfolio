@@ -9,21 +9,76 @@
   </head>
   <body>
     <header>
-      <h1>Alec</h1>
       <nav>
-        <ul>
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">Work</a></li>
-          <li><a href="#">Contact Me</a></li>
-          <li><a href="#">Resume</a></li>
-        </ul>
+        <div class="logo">
+          <h1>Alec Summers</h1>
+        </div>
+        <div class="nav-links">
+          <a href="#section1">About Me</a>
+          <a href="#section2">Work</a>
+          <a href="#section3">Contact Me</a>
+        </div>
       </nav>
     </header>
-    <section></section>
+    <section class="banner">
+      <img src="./assests/images/Screen Shot 2023-03-11 at 1.59.21 PM.png" id="banner">
+      <p>My portfolio</p>
+    </section>
     <main>
-      <section class="body about">
-        <aside>About Me</aside>
-        <p>This is a little about me</p>
+      <section id="section1">
+        <aside>
+          <h2>About Me</h2>
+        </aside>
+        <div id="about-me">
+          <p id="description">My name is Alec. I am a Full-Stack Web Developer. I completed education through the University of Utah coding bootcamp. It has provided me with all the knowledge to create and deploy a webpage. Like the one you are looking at.
+            Take some time to look around my portfolio and see all the projects that I have completed.
+            <br>
+            <br>
+            This has been a wonderful time to make and style this webpage. Please feel free to leave comments about how I can improve the styling and what you would have done different. Other than that enjoy!
+          </p>
+        </div>
+      </section>
+      <section id="section2">
+        <aside>
+          <h2>Work</h2>
+        </aside>
+        <div class ="projects">
+          <div id="firstImage">
+            <a href="https://github.com/asummers7/Ch.01-accessability-coderefactor"><img src="assests/images/Screen Shot 2023-03-11 at 3.22.34 PM.png"></a>
+            <p>Project 1</p>
+          </div>
+          <div class="sizing">
+            <div class="images">
+              <div class="projectImages">         
+                <a href="https://github.com/asummers7/Ch.02-Practice-Portfolio"><img src="assests/images/Screen Shot 2023-03-11 at 3.43.55 PM.png"></a>
+                <p>Project 2</p>
+              </div>
+              <div class="projectImages">
+                <a href="https://github.com/asummers7/Ch.03-passwordgenerator-modifier"><img src="assests/images/Screen Shot 2023-03-11 at 3.44.06 PM.png"></a>
+                <p>Project 3</p>
+              </div>
+              <div class="projectImages">
+                <a href="https://github.com/asummers7/Ch.04-quizgenerator-creation"><img src="assests/images/Screen Shot 2023-03-11 at 3.44.23 PM.png"></a>
+                <p>Project 4</p>
+              </div>
+              <div class="projectImages">
+                <a href="https://github.com/asummers7/Ch.05-bootstrap-calander"><img src="assests/images/Screen Shot 2023-03-11 at 3.44.37 PM.png"></a>
+                <p>Project 5</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="section3">
+        <aside>
+          <h2 id="contact">Contact Me</h2>
+        </aside>
+        <div class="contact">
+          <p>(123)456-7890</p>
+          <p>asummers34@gmail.com</p>
+          <a href="https://github.com/asummers7?tab=repositories">GitHub</a>
+          <a href="https://www.linkedin.com/in/alec-summers-730b40148/">linkedin</a>
+        </div>
       </section>
     </main>
   </body>
